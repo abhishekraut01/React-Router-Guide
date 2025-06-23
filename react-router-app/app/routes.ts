@@ -1,9 +1,7 @@
-import {
-  type RouteConfig,
-  route,
-} from "@react-router/dev/routes";
+import { type RouteConfig, index, route } from "@react-router/dev/routes";
+
 
 export default [
-  route("about", "./routes/about.tsx"),
-
-] satisfies RouteConfig;
+  route("login", "./routes/login.tsx"),
+  route("profile", "./routes/profile.tsx"),
+];
